@@ -1367,7 +1367,7 @@ function drawInfo(t){
   if(state.doctorSigMode === "typed") docTyped = state.doctorSigTyped;
 
   sigCard(rightColX, "الطبيب المعالج", docLines, docSigImg, docTyped, state.doctorPrinted, state.doctorSigScale);
-  sigCard(leftColX, "توقيع المسؤول", ["بخيت مبخوت"], IMG_RESP_SIG, null, "", 1.0);
+  sigCard(leftColX, "توقيع المسؤول", ["د.بخيت مبخوت"], IMG_RESP_SIG, null, "", 1.0);
 }
 
 function drawFooter(){
